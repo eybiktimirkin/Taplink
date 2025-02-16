@@ -66,4 +66,45 @@ body {
   margin-bottom: 4px;
   color: #6a6a6a
 }
-
+.card {
+  background:#ffffff;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  padding: 20px;
+}
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  max-width: 260px;    /*максимальная ширина*/
+  margin: auto;
+  gap: 10px;  /*расстояние между кнопками*/
+  margin-bottom: 6px;
+}
+.button {
+  display: flex;
+  background-color: #000;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 1;
+  height: 40px;      /*высота*/
+  width: 100%;       /*ширина*/
+  border-radius: 5px;        /*скругление*/
+  overflow: hidden;
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  gap: 10px;
+}
+.button.vk {
+  background-color: #4c75a3
+}
+.button.tg {
+  background-color: #fff
+}
+.button.yt {
+  background-color: #ff0000
+}
